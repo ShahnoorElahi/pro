@@ -1,0 +1,140 @@
+*{
+        box-sizing: border-box; 
+	    font-family: arial;
+}
+.container1{
+    width: 100%;
+    display: flex;
+}
+.search{
+    background-color: chocolate;
+    padding: 0px 10px 0px 0px;
+    border-radius: 30px;
+    width: 69%;
+}
+.sinp{
+    padding: 2% 0;
+    width: 90%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.sicon {
+    text-align: center;
+    padding: 1% 2%;
+    font-size: 22px;
+}
+.all-product1s{
+    width: 72%;
+    background-color: lightgrey;
+    display: flex;
+    flex-wrap: wrap;
+}
+.product1 {
+    margin: 1%;
+    width: 18%;
+    background-color: white;
+    border-radius: 5%;
+    overflow: hidden;
+}
+.product1-img{
+	width:100%;
+}
+.product1-content {
+    padding: 2% 3% 5% 3%;
+
+}
+.product1-name{
+	font-size: 12px;
+	font-weight: 700;
+}
+.product1-name-hidden{
+    display: none;
+    padding: 5px 10px;
+    background-color: #eaeaea;
+}
+.product1-name:hover + .product1-name-hidden{
+    position:absolute;
+    margin-top: 0px;
+    display: block;
+    font-size: 12px;
+	font-weight: 700;
+}
+.product1-category-p {
+    font-size: 9px;
+    font-weight: 700;
+    padding: 2% 8%;
+    background-color:brown;
+    color: white;
+    border-radius: 10px;
+}
+.product1-category-c {
+    font-size: 9px;
+    font-weight: 700;
+    padding: 2% 8%;
+    background-color:rgb(231, 14, 166);
+    color: white;
+    border-radius: 10px;
+}
+.product1-price {
+    font-size: 9px;
+    font-weight: 700;
+    padding: 2% 4%;
+    background-color: lightgreen;
+    border-radius: 10px;
+}
+.product1-name{
+	margin: 0 0 4px 0;
+}
+.product1-footer{
+	display: flex;
+	justify-content: space-between;
+    margin-top: auto;
+}
+.slip{
+    width: 26%;
+    padding: 50px;
+    background-color: lightskyblue;
+}
+
+
+
+/* @media (max-width:1076px){
+    .product1 {
+        margin: 1%;
+        width: 31%;
+    }
+} */
+@media (max-width:1200px){
+    .product1 {
+        margin: 1%;
+        width: 23%;
+    }
+}
+@media (max-width:1024px){
+    .product1 {
+        margin: 1%;
+        width: 31%;
+    }
+    .sicon {
+        font-size: 14px;
+        padding: 1% 1%;
+    }
+    .slip {
+        width: 35%;
+    }
+}
+@media (max-width:780px){
+    
+    .container1{
+        width: 100%;
+        display: block;
+    }
+    .all-product1s, .slip{
+        width: 100%;
+    }
+    .product1 {
+        margin: 1%;
+        width: 47%;
+    }
+
+}

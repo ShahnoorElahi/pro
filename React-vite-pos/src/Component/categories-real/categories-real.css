@@ -1,0 +1,23 @@
+.menu{
+    background-color: aquamarine;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 2%;
+}
+.menu p{
+    margin: 03px;
+}
+.menu-title{
+    margin-top: 35px !important;
+    margin-bottom: 0;
+}
+
+@media (max-width:768px){
+
+}
+@media (max-width:1024px){
+
+}
+@media (max-width:1200px){
+
+}
